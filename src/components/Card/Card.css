@@ -1,0 +1,134 @@
+.Card {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    height: 500px;
+    justify-content: space-between;
+    background: #fff;
+    margin: 0 0 5px 0;
+}
+
+.imgCard div{
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+}
+
+.textCard {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 30px;
+}
+
+.textCard a {
+    text-decoration: none;
+    color: #fd6e0e;
+}
+
+.textCard h2 {
+    font-size: 34px;
+    margin: 10px 0;
+}
+
+.textCard .adress {
+    font-size: 28px;
+    margin: 10px 0;
+    color: #660707;
+    font-family: 'Calibri', sans-serif;
+}
+
+.textCard .price {
+    font-size: 20px;
+    margin: 10px 0;
+    color: #fdc30e;
+}
+
+
+@media (max-width: 1024px) {
+    
+    .Card {
+        width: 100vw;
+        height: 200px;
+        flex-direction: row;
+    }
+
+    .imgCard div{
+        height: 200px;
+        width: 25vw;
+    }
+
+    .Card .imgBack {
+        background-size: cover;
+        background-position: center;
+    }
+
+    .textCard {
+        margin-right: 50px;
+        height: auto;
+        align-items: flex-end;
+    }
+
+    .textCard h2 {
+        font-size: 30px;
+        margin: 0;
+    }
+    
+    .textCard .adress {
+        font-size: 28px;
+    }
+
+    .textCard .adress i {
+        display: none;
+    }
+    
+    .textCard .price {
+        font-size: 16px;
+        color: #fdc30e;
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .Card {        
+        height: 105px;
+    }
+
+    .imgCard div{
+        height: 105px;
+        width: 105px;
+    }
+
+    .textCard {
+        margin-right: 25px;
+        line-height: 25px;
+        height: auto;
+        align-items: flex-end;
+    }
+
+    .textCard h2 {
+        font-size: 23px;
+        margin: 0;
+    }
+
+    .textCard .adress {
+        font-size: 21px;
+        margin: 0;
+    }
+
+    .textCard .price {
+        margin: 0;
+    }
+}
+
+@media (max-width: 380px) {
+    .textCard h2 {
+        font-size: 18px;
+    }
+
+    .textCard .adress {
+        font-size: 14px;
+    }
+}

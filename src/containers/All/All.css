@@ -1,0 +1,90 @@
+
+.All {
+    text-align: center;
+    background: #faeed8;
+}
+
+.All .Cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.All header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #faeed8;
+    color: #ce2525;
+}
+
+.All header i {
+    position: absolute;
+    top: 25px;
+    left: 30px;
+    font-size: 25px;
+    color: #ce2525;
+}
+
+.All .filter {
+    background: #ce2525;
+    color: #faeed8;
+    font-family: sans-serif;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.All .filter p {
+    font-family: 'Calibri', sans-serif;
+    padding-left: 40px;
+    font-size: 23px;
+}
+
+.All .filter span {
+    position: absolute;
+    right: 0;
+    width: 100px;
+    height: inherit;
+    background: #a22222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 480px) {
+    .All header {
+        height: 55px;
+    }
+
+    .All .filter {
+        height: 40px;
+    }
+
+    .All header i {
+        top: 15px;
+        left: 30px;
+    }
+
+    .All header h1{
+        font-size: 22px;
+        text-transform: uppercase;
+    }
+
+    .All .filter span {
+        width:85px;
+    }
+
+    .All .filter p {
+        font-family: 'Calibri', sans-serif;
+        padding-left: 30px;
+        font-size: 23px;
+    }
+}
+
+@media (max-width: 380px){
+    .All .filter {
+        justify-content: flex-start;
+    }
+}

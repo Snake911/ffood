@@ -1,0 +1,57 @@
+html, body {
+    height: 100%;
+}
+
+.Near {
+    text-align: center;
+    background: #faeed8;
+    height: 100vh;
+}
+
+.Near header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #faeed8;
+    color: #ce2525;
+}
+
+.Near header i {
+    position: absolute;
+    font-size: 25px;
+    color: #ce2525;    
+    top: 25px;
+    left: 30px;    
+}
+
+.Near .filter {
+    background: #ce2525;
+    color: #faeed8;
+    font-family: sans-serif;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Near .filter p {
+    font-family: 'Calibri', sans-serif;
+    font-size: 23px;
+}
+
+@media (max-width: 480px) {
+    .Near header h1{
+        font-size: 22px;
+        text-transform: uppercase;
+    }
+
+    .Near .filter p {
+        font-family: 'Calibri', sans-serif;
+        font-size: 23px;
+    }
+
+    .Near header i {          
+        top: 15px;
+        left: 30px;    
+    }
+}

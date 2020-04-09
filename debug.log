@@ -1,0 +1,2 @@
+[0421/111617.670:ERROR:process_reader_win.cc(151)] SuspendThread: Отказано в доступе. (0x5)
+[0421/111617.756:ERROR:exception_snapshot_win.cc(98)] thread ID 4836 not found in process

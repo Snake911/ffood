@@ -1,0 +1,20 @@
+.Want {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../../img/pattern.jpg');
+    height: 100vh;
+    font-weight: 900;
+}
+
+.Want h1 {
+    font-weight: 900;
+    font-size: 38px;
+    color: #ce2525;
+}
+
+.Want img {
+    border-radius: 50%;
+    box-shadow: 3px 3px 5px #ed881c;
+}

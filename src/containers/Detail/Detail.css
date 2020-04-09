@@ -1,0 +1,108 @@
+.Detail {
+    text-align: center;
+    background: #faeed8;
+    height: 100%;
+}
+
+.Detail .map {
+    height: 50%;
+}
+
+.Detail header {
+    height: 360px;
+    background-size: cover;
+    background-position: center;
+}
+
+.Detail header i {
+    position: absolute;
+    left: 40px;
+    top: 30px;
+    font-size: 25px;
+    color: #ce2525;
+}
+
+.Detail .info {
+    background: #fff;
+    padding: 10px 30px;
+    text-align: left;
+    font-family: 'Calibri', sans-serif;
+    font-size: 20px;
+}
+
+.Detail .info h1 {
+    font-family: 'plakatcmpl', sans-serif;
+    color: #fd6e0e;
+    font-size: 35px;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.Detail .info a {
+    text-decoration: none;
+    color: #000;
+}
+
+.Detail .info i {
+    color: #848484;
+}
+
+.Detail .info hr {
+    color: #e9e9e9; /*для IE */
+    background-color:#e9e9e9; /*для Firefox, Opera, Safari*/
+    border:0px none;
+    height:1px;
+}
+
+.Detail .info .time {
+    margin: 1em 0;
+}
+
+
+
+.Detail .soc i {
+    color: #fff;
+    background: #848484;
+    padding: 5px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.Detail .filter {
+    background: #dedede;
+    color: #000;
+    font-family: sans-serif;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .Detail .info h1{
+        font-size: 28px;        
+    }
+}
+
+@media (max-width: 480px) {
+    .Detail header {
+        height: 160px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .Detail header i {
+        top: 15px;
+        left: 30px;
+    }
+
+    .Detail header h1{
+        font-size: 22px;
+        text-transform: uppercase;
+    }
+    .Detail .info h1{
+        font-size: 22px;
+    }
+
+}
